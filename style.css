@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: rgb(44, 107, 135)
+}
+p, h1, h2, label, button {
+  font-family: "Monaco", monospace;
+}
+body {
+  background-color: rgb(55, 185, 163);
+}
+button, p {
+  font-weight: bold;
+}
