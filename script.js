@@ -6,7 +6,7 @@ var calculateInvestment = function(p_investment, p_timeInvestment, p_compound, p
       perYear.push([i, p_investment])
     }
   }else {
-    for(i++; i < p_timeInvestment; i++) {
+    for(var i = 0; i < p_timeInvestment; i++) {
       p_investment *= (1+(p_interestRate/100))
       perYear.push([i, p_investment])
     }
